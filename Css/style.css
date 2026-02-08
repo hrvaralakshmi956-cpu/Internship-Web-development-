@@ -1,0 +1,79 @@
+h1{
+   color: yellow; 
+}
+
+#test{
+    color:teal;
+    font-size 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration:line-through;
+}
+#test1{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight:bolder;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.news
+{
+    color: palegreen;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: dotted;
+
+}
+.news1
+{
+    color: chocolate;
+    font-size: 16px;
+    font-style: normal;
+    text-decoration: dotted;
+}
+
+h4{
+    color:palevioletred ;
+    font-size: 18px;
+}
+*{
+    font-family: cursive;
+}
+
+.username
+{
+   width: 100px;
+   height: 25px;
+   border: 1px solid transparent;
+   color: teal;
+   font-size: 14px;
+   font-weight: bold;
+   font-style: italic;
+   border-radius: 10px;
+   outline: none;
+   caret-color: orange;
+   background-color: beige;
+   padding: 10px;
+   transition: background-color 300s;
+}
+
+.username::placeholder{
+    color: palevioletred;
+    font-style: normal;
+}
+.username:hover{
+    background-color: teal;
+    color: burlywood;
+}
+.username{
+    border-color: yellow;
+}
+.section1{
+    width: 100%;
+    height: 800px;
+    background-image: url(../image/Photo\ .jpg);
+    background-repeat:no-repeat ;
+    background-size:100% 100%;
+}
