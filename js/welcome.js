@@ -168,6 +168,76 @@ var myProfile={
 };  
 console.log("myprofile obj",myProfile);
 
+// destructuring of an object
+
+console.log("role of a user",myProfile.exp);
+
+// nested Objects
+
+var orderAddressProfile={
+    primaryemail:"test@yopmail.com",
+    phno:"1234567890",
+    address:{
+     streetNo:"5",
+     doorNo:"#12",
+     city:"ABC"
+    }
+};
+console.log("orderAddressprofile",orderAddressProfile);
+
+// Array of Objects
+
+var productList=[ 
+    {itemName:"Shoes", price:100, rating:4.5 } ,
+    {itemName:"SSD",price:56,rating:4.0 },
+    {itenName:"Bangles",price:9, rating:4.8 },
+ ];
+ console.log("product List", productList);
+
+// map();
+
+productList.map((b)=>{ console.log(b.itemName) });
+
+// filter();
+
+var filterdProducts=productList.filter((product)=>{
+    return product.price >50;
+});
+
+console.log("filterdProduct",filterdProducts);
+
+//filter based on rating
+
+var topratedProducts=productList.filter((k)=>{
+    return k.rating>=4 && k.rating<=4.5
+});
+
+console.log("topratedProducts (4-4.5)",topratedProducts);
+
+// DOM (Document Object Model)
+// document ~ web page
+function onSubmit(){
+//    alert("btn clicked!");
+var typedUserName=document.getElementById("typeIn").value;
+console.log(typedUserName);
+
+var typedInAge=document.getElementById("typedAge").value;
+console.log("age entered by user",typedInAge);
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 
